@@ -70,7 +70,7 @@ class InternetSpeedTwitterBot:
                 EC.element_to_be_clickable((By.XPATH, '//div[@data-testid="tweetButton"]')))
             tweet_button.click()
 
-            # Add a small delay to allow the tweet to be sent (you can adjust the delay based on your needs)
+            # Add a small delay to allow the tweet to be sent
             time.sleep(10)
 
         except Exception as e:
